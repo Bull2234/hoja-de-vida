@@ -1,0 +1,346 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: silver;
+}
+.name {
+  width: 100%;
+  height: 225px;
+  background: peru ;
+  transform: skewY(-5deg);
+  border: 2px solid black;
+}
+.name .contenido {
+  width: 70%;
+  height: 50%;
+  position: absolute;
+  left: 20%;
+}
+
+.name .contenido .p1 {
+  color: rgb(11, 10, 10);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  transform: skewY(5deg);
+  margin-top: 5%;
+}
+
+.name .contenido .p2 {
+  color: rgb(11, 9, 9);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  font-size: 25px;
+  transform: skewY(5deg);
+}
+
+.name .imagen {
+  position: absolute;
+  top: 25%;
+  right: 1%;
+  width: 150px;
+  height: 155px;
+  border-radius: 100%;
+  transform: scaleY(5deg);
+  overflow: hidden;
+  border: 2px solid black;
+}
+
+
+
+.datos {
+  width: 90%;
+  height: auto;
+  background: peru ;
+  margin: 5% auto;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.datos .titulo {
+color: rgb(11, 9, 9);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+font-size: 25px;
+text-align: center;
+border-bottom: 2px silver dashed;
+}
+
+.datos .textonom {
+  color: rgb(11, 9, 9);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline;
+}
+.datos .nombres {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: normal;
+  font-size: 20px;
+  display: inline;
+}
+
+.datos .textoape {
+  color: rgb(11, 9, 9);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline;
+}
+.datos .apellidos {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: normal;
+  font-size: 20px;
+  display: inline;
+}
+
+.datos .ced {
+  color: rgb(11, 9, 9);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline;
+}
+.datos .infoced {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: normal;
+  font-size: 20px;
+  display: inline;
+}
+.datos .Fecha {
+  color: rgb(11, 9, 9);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline;
+}
+.datos .infofecha {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: normal;
+  font-size: 20px;
+  display: inline;
+}
+.datos .dire {
+  color: rgb(11, 9, 9);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline;
+}
+.datos .infodir {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: normal;
+  font-size: 20px;
+  display: inline;
+}
+.datos .tel {
+  color: rgb(11, 9, 9);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline;
+}
+.datos .infotel {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: normal;
+  font-size: 20px;
+  display: inline;
+}
+.datos .Email {
+  color: rgb(11, 9, 9);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline;
+}
+.datos .infoemail {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: normal;
+  font-size: 20px;
+  display: inline;
+}
+.perfil {
+  width: 90%;
+  height: auto;
+  background: peru ;
+  margin: 5% auto;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+.perfil .texto {
+  color: rgb(11, 9, 9);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  border-bottom: 2px silver dashed;
+}
+.habilidades {
+  width: 90%;
+  height: auto;
+  background: peru ;
+  margin: 5% auto;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+.habilidades .titulos {
+  color: rgb(11, 9, 9);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  border-bottom: 2px silver dashed;
+}
+
+.educacion {
+  width: 90%;
+  height: auto;
+  background: peru ;
+  margin: 5% auto;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+.educacion .edu {
+  color: rgb(11, 9, 9);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  border-bottom: 2px silver dashed;
+}
+.educacion .pri {
+  color: rgb(11, 9, 9);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline;
+}
+.educacion .infopri {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: normal;
+  font-size: 20px;
+  display: inline;
+}
+
+.educacion .sec {
+  color: rgb(11, 9, 9);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline;
+}
+.educacion .infosec {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: normal;
+  font-size: 20px;
+  display: inline;
+}
+.educacion .Periodo {
+  color: rgb(11, 9, 9);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline;
+}
+.educacion .infoper {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: normal;
+  font-size: 20px;
+  display: inline;
+}
+
+.laboral {
+  width: 90%;
+  height: auto;
+  background: peru ;
+  margin: 5% auto;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+.laboral .titulo {
+  color: rgb(11, 9, 9);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  border-bottom: 2px silver dashed;
+}
+.laboral .empresa {
+  color: rgb(11, 9, 9);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline;
+}
+ .laboral .tituloemp {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: normal;
+  font-size: 20px;
+  display: inline;
+}
+.laboral .año {
+  color: rgb(11, 9, 9);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline;
+}
+ .laboral .infoaño {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: normal;
+  font-size: 20px;
+  display: inline;
+}
+.laboral .cargo {
+  color: rgb(11, 9, 9);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline;
+}
+ .laboral .infocarg {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: normal;
+  font-size: 20px;
+  display: inline;
+}
+
+ .laboral .inforeg {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: normal;
+  font-size: 20px;
+  display: inline;
+}
+ .laboral .infoañio {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: normal;
+  font-size: 20px;
+  display: inline;
+}
+.laboral .infosop {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: normal;
+  font-size: 20px;
+  display: inline;
+}
