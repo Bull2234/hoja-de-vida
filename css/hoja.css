@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: silver;
+  background: rgb(151, 179, 179);
 }
 .name {
   width: 100%;
@@ -49,7 +49,7 @@ body {
 
 
 .datos {
-  width: 90%;
+  width: 60%;
   height: auto;
   background: peru ;
   margin: 5% auto;
@@ -168,7 +168,7 @@ border-bottom: 2px silver dashed;
   display: inline;
 }
 .perfil {
-  width: 90%;
+  width: 60%;
   height: auto;
   background: peru ;
   margin: 5% auto;
@@ -185,7 +185,7 @@ border-bottom: 2px silver dashed;
   border-bottom: 2px silver dashed;
 }
 .habilidades {
-  width: 90%;
+  width: 60%;
   height: auto;
   background: peru ;
   margin: 5% auto;
@@ -203,7 +203,7 @@ border-bottom: 2px silver dashed;
 }
 
 .educacion {
-  width: 90%;
+  width: 60%;
   height: auto;
   background: peru ;
   margin: 5% auto;
@@ -264,7 +264,7 @@ border-bottom: 2px silver dashed;
 }
 
 .laboral {
-  width: 90%;
+  width: 60%;
   height: auto;
   background: peru ;
   margin: 5% auto;
